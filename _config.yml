@@ -11,8 +11,8 @@ locale                   : "en-US"
 title                    : "Yu Fu/ Personal Homepage"
 title_separator          : "-"
 name                     : &name "Yu Fu"
-description              : &description "a thrid year undergraduate from Beijing Normal University"
-url                      : https://yuf.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description              : &description "a 3rd year undergraduate from Beijing Normal University"
+url                      : https://yuf.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "goTtheFuego/yuf.github.io"
 
@@ -29,17 +29,8 @@ author:
   uri              : 
   email            : "thisissollab@gmail.com" 
 
-  # Academic websites
-  arxiv            : 
-  googlescholar    :
-  impactstory      : 
-  orcid            : 
-  pubmed           : 
-  researchgate     : 
-
   # Repositories and software development
   github           : goTtheFuego
-
 
   # Social media
   linkedin         : Yu Fu(Kauf)
@@ -59,10 +50,6 @@ comments:
     shortname            :
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
   branch                 : "gh-pages" # "master", "gh-pages"
@@ -85,11 +72,6 @@ atom_feed:
 # Social Sharing
 twitter:
   username               : &twitter
-facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 :  # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
